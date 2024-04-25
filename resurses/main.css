@@ -1,0 +1,186 @@
+body {
+  overflow-x: hidden !important;
+  background: rgb(175, 14, 14);
+  background: rgb(255, 255, 255);
+  background: rgb(221, 203, 149);
+  background: radial-gradient(
+    circle,
+    rgba(221, 203, 149, 1) 0%,
+    rgba(172, 127, 0, 1) 100%
+  );
+}
+/* Изображение*/
+img#navbar_img {
+  height: 40%;
+  width: 40%;
+}
+@media (max-width: 500px) {
+  img#navbar_img {
+    height: 25%;
+    width: 25%;
+  }
+}
+/*Кнопка Вход*/
+div#vhod_btn {
+  float: right;
+  margin-left: 60%;
+}
+@media (max-width: 500px) {
+  div#vhod_btn {
+    margin-left: 0%;
+  }
+}
+/*Центральный div*/
+div#title_div {
+  margin: 3%;
+}
+@media (max-width: 500px) {
+  div#title_div {
+    margin-top: 10%;
+  }
+}
+/*Центральный текст*/
+h1#h1_Lif {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 150%;
+}
+p#p_inf {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+/*второй div*/
+div#sec_div {
+  padding-top: 2%;
+  height: 50%;
+}
+/*Топ студентов*/
+.inline-block_1 {
+  margin-left: 2%;
+  width: 45%; /* Ширина вашего div */
+  /* Высота вашего div */
+  background-color: rgb(255, 255, 255); /* Цвет фона */
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  height: calc((100vw / 1920) * 1000);
+  max-height: 400px;
+}
+.inline-block_2 {
+  margin-right: 2%;
+  width: 45%; /* Ширина вашего div */
+  /* Высота вашего div */
+  background-color: rgb(255, 255, 255); /* Цвет фона */
+  border-radius: 15px;
+  display: inline-block;
+  flex-direction: column;
+  float: right;
+  height: calc((100vw / 1920) * 1000);
+  max-height: 400px;
+}
+@media (max-width: 1500px) {
+  .inline-block_1 {
+    margin-left: 2%;
+    width: 45%; /* Ширина вашего div */
+    /* Высота вашего div */
+    background-color: rgb(255, 255, 255); /* Цвет фона */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    height: calc(400px + ((100vw / 1920) * 10000));
+    max-height: 450px;
+  }
+}
+@media (max-width: 1500px) {
+  .inline-block_2 {
+    margin-right: 2%;
+    width: 45%; /* Ширина вашего div */
+    /* Высота вашего div */
+    background-color: rgb(255, 255, 255); /* Цвет фона */
+    border-radius: 15px;
+    display: inline-block;
+    flex-direction: column;
+    float: right;
+    height: calc(400px + ((100vw / 1920) * 10000));
+    max-height: 450px;
+  }
+}
+@media (max-width: 1000px) {
+  .inline-block_1 {
+    margin-left: 2%;
+    width: 45%; /* Ширина вашего div */
+    /* Высота вашего div */
+    background-color: rgb(255, 255, 255); /* Цвет фона */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    height: calc(400px + ((100vw / 1920) * 10000));
+    max-height: 550px;
+  }
+}
+@media (max-width: 1000px) {
+  .inline-block_2 {
+    margin-right: 2%;
+    width: 45%; /* Ширина вашего div */
+    /* Высота вашего div */
+    background-color: rgb(255, 255, 255); /* Цвет фона */
+    border-radius: 15px;
+    display: inline-block;
+    flex-direction: column;
+    float: right;
+    height: calc(400px + ((100vw / 1920) * 10000));
+    max-height: 550px;
+  }
+}
+@media (max-width: 800px) {
+  .inline-block_1 {
+    margin-left: 2%;
+    width: 45%; /* Ширина вашего div */
+    /* Высота вашего div */
+    background-color: rgb(255, 255, 255); /* Цвет фона */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    height: calc(400px + ((100vw / 1920) * 10000));
+    max-height: 750px;
+  }
+}
+@media (max-width: 800px) {
+  .inline-block_2 {
+    margin-right: 2%;
+    width: 45%; /* Ширина вашего div */
+    /* Высота вашего div */
+    background-color: rgb(255, 255, 255); /* Цвет фона */
+    border-radius: 15px;
+    display: inline-block;
+    flex-direction: column;
+    float: right;
+    height: calc(400px + ((100vw / 1920) * 10000));
+    max-height: 750px;
+  }
+}
+h1#topstud {
+  padding-top: 1%;
+  text-align: center;
+}
+.line {
+  border-bottom: 1px solid rgb(21, 19, 19);
+}
+.fogdfghdf {
+  max-width: 200px;
+  max-width: 200px;
+  float: right;
+  margin-right: 5%;
+}
+@media (max-width: 1000px) {
+  .fogdfghdf {
+    max-width: 150px;
+    max-width: 150px;
+    float: right;
+    margin-right: 5%;
+  }
+}
